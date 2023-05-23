@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lists and tables</title>
+</head>
+<body>
+    <h1>Lists</h1>
+    <!-- list -->
+    <h4>ordered list ol </h4>
+    <!-- type a ,A, i,I -->
+    <!-- start: starts from that point -->
+    <ol type = 'a' start = 5>
+        <!-- li - list  -->
+        <li>MERN</li>
+        <li>Java</li>
+        <li>Python</li>
+        <li>C++</li>
+    </ol>
+    <hr />
+
+    <h4>unordered list ul </h4>
+    <!-- type circle, disc, none  -->
+    <ul type = "none">
+        <!-- li - list  -->
+        <li>MERN</li>
+        <li>Java</li>
+        <li>Python</li>
+        <li>C++</li>
+    </ul>
+    <hr />
+
+    <h4>nested list </h4>
+    <!-- type circle, disc, none  -->
+    <ol>
+        <!-- li - list  -->
+        <li>MERN</li>
+        <ul>
+            <li>Java</li>
+            <li>Python</li>
+        </ul>                                            
+        <li>C++</li>
+    </ol>
+    <hr />
+
+    <h4>Description/definition list </h4>
+    <!-- dl is description list  -->
+    <dl>
+        <!-- description term  -->
+        <dt>Afrah</dt>
+        <!-- description definition -->
+        <dd>Awesome Human</dd>
+
+        <dt>Book</dt>
+        <dd>knowledge</dd>
+
+        <dt>Bat</dt>
+        <dd>spreads covid</dd>
+
+    </dl>
+    <hr />
+    
+    <h1>Tables</h1>
+    <!-- table tag for tables -->
+    <table border = 1>
+        <tr>
+            <!-- th: table heading -->
+            <th> The title 1 </th>
+            <th> The title 2</th>
+            <th> The title 3</th>
+            <th> The title 4</th>
+            <th> The title 5</th>
+        </tr>
+        <!-- tr: table row -->
+        <tr>
+            <!-- td: table data -->
+            <td>row 1 & column 1</td>
+            <!-- rowspan: merging rows -->
+            <td rowspan = '2'>row 1 & column 2</td>
+            <td>row 1 & column 3</td>
+            <!-- colspan: merging columns -->
+            <td colspan = '2'>row 1 & column 4</td>
+            <td>row 1 & column 5</td>
+        </tr>
+        <tr>
+            <td>row 2 & column 1</td>
+            <td>row 2 & column 2</td>
+            <td>row 2 & column 3</td>
+            <td>row 2 & column 4</td>
+            <td>row 2 & column 5</td>
+        </tr>
+        <tr>
+            <td>row 3 & column 1</td>
+            <td>row 3 & column 2</td>
+            <td>row 3 & column 3</td>
+            <td>row 3 & column 4</td>
+            <td>row 3 & column 5</td>
+        </tr>
+        <tr>
+            <td>row 4 & column 1</td>
+            <td>row 4 & column 2</td>
+            <td>row 4 & column 3</td>
+            <td>row 4 & column 4</td>
+            <td>row 4 & column 5</td>
+        </tr>
+    </table>
+    
+</body>
+</html>
