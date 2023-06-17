@@ -21,18 +21,33 @@
     <label> email </label>
     <input type = "email" placeholder = "email"/>
     <hr />
+    <!-- radio buttons with disabled ones -->
     <label> Male </label>
     <input name = "gender" type = "radio" />
-    <hr />
     <label> Female </label>
     <input name = "gender" type = "radio" />
+    <label> Prefer not to Say </label>
+    <input name = "gender" type = "radio" disabled/>
     <hr />
-    <!-- Checkbox -->
+    <!-- Checkbox with checked-->
     <label> Select the box </label>
-    <input name = "Select" type = "checkbox" /> MERN
+    <input name = "Select" type = "checkbox" checked/> MERN
     <input name = "Select" type = "checkbox" /> Java
     <input name = "Select" type = "checkbox" /> Python
     <input name = "Select" type = "checkbox" /> C++
+    <hr />
+    <!-- Range -->
+    <input type = "range" start = '1' end = '2'/>
+    <hr />
+    <!-- dropdown -->
+    <select>
+        <option></option>
+        <option>Male</option>
+        <option>Female</option>
+    </select>
+    <hr />
+    <!-- text area with changing rows and columns -->
+    <textarea rows = "8" cols ="45" placeholder = "Enter the comments here"></textarea>
 </body>
 </html>
 <!-- ctrl + alt + down key for selecting and changing a group of code -->
