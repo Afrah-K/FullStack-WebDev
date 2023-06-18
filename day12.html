@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <title> day 12 - css Selectors</title>
+        <style>
+            /* Element Selector */
+            h4{
+                color:brown;
+                background-color: greenyellow;
+            }
+            /* Universal Selector */
+            *{
+                background-color: peachpuff;
+            }
+            /* Element Selector List */
+            h4, p, h1, h3{
+                font-stretch: expanded;
+                font-style: italic;
+            }
+            /* ID Selector */
+            #num3{
+                color:aquamarine;
+                background-color: azure;
+            }
+            /* Class Selector */
+            .num4{
+                color:green;
+                background-color: pink;
+            }
+            /* Descendant Selector */
+            ol a{
+                color: orange;
+                background-color: lightyellow;
+            }
+            /* Direct Child Selector */
+            div > h3{
+                color:blueviolet;
+                background-color: black;
+            }
+
+        </style>
+    </head>
+    <body>
+        <!-- CSS Selectors , Selectors are used to target the HTML Elements on the webpage 
+            1. Element Selector
+            2. Universal Selector
+            3. Element Selector List
+            4. ID Selector
+            5. Class Selector
+            6. Descendant Selector
+            7. Direct Child Selector
+        -->
+
+        <h4>Hello World</h4>
+        <h1>Hello this is me</h1>
+        <h3>Okay this is working</h3>
+        <p>This is a paragraph</p>
+        <p id = "num3">This is an id num3</p>
+        <p class = "num4">This is an id num3</p>
+
+        <ol>
+            <li><a href = "#">Hey its an Anchor in 1</a></li>
+            <li><a href = "#">Hey its an Anchor in 2</a></li>
+            <li><a href = "#">Hey its an Anchor in 3</a></li>
+            <li><a href = "#">Hey its an Anchor in 4</a></li>
+        </ol>
+
+        <div>
+            <span><h3>Hey its div span h3 -1</h3></span>
+            <h3>hey div h3 -2</h3>
+        </div>
+        <h3>hey h3</h3>
+    </body>
+</html>
