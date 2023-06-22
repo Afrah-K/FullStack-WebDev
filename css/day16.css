@@ -1,0 +1,44 @@
+/* Psuedo Classes */
+
+button{
+    font-size: 20px;
+}
+
+/* Hover State: Pointing the cursor on a button */
+button:hover{
+    color:white;
+    background-color: black;
+    /* cursor:pointer; */
+    cursor:all-scroll;
+}
+
+/* Active State: When we hold the left key or button of the mouse, indicating its active state*/
+button:active{
+    border: 5px dashed greenyellow
+}
+
+/* Focus State: Indicating that we already clicked on the button */
+button:focus{
+    background-color: darkblue;
+    color:white
+}
+
+#but:hover{
+    color:indianred;
+    background-color: blue;
+}
+
+a:hover{
+    color:red;
+    background-color:bisque
+}
+
+a:active{
+    color:yellow;
+    background-color:blueviolet;
+}
+
+a:focus{
+    border: 5px dashed pink;
+    background-color:bisque;
+}
