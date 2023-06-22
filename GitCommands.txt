@@ -1,0 +1,17 @@
+Git Commands
+
+
+<<Offline Editors>>
+
+Connecting Github account
+git config --global user.name "Afrah-K"
+git config --global user.email "afrahkausar2020@gmail.com"
+
+git init
+git remote add origin(url)
+
+git status 
+git add ./ git add fileName1 fileName2
+git status 
+git commit -m "any message to save files for commit here"
+git push
