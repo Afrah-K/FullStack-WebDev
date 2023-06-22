@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <title>Day 13 - css specificity and css box model</title>
+        <!-- external css -->
+        <link rel = "stylesheet" href = "css\day13.css" />
+
+        <!-- internal css -->
+        <style> 
+            h6{
+                background-color: aqua;
+            }
+            /* elementor selector */
+            h5{
+                background-color: brown;
+            }
+            /* Id selector */
+            #heyh5Id{
+                background-color: blue;
+            }
+            /* Class selector */
+            .heyh5Class{
+                background-color: orange;
+            }
+            p{
+                border: 2px dashed yellow;
+            }
+            span{
+                border: 3px solid rebeccapurple;
+                background-color: burlywood;
+                padding: 5px 2px 5px 2px; 
+                /* margin: 90%; */
+                margin: 25px 20px 25px 20px;
+            }
+        </style>
+    </head>
+    <body>
+
+        <h1>css Specificity</h1>
+        <br />
+        <!-- Inline css >> external css >> internal css -->
+        <!-- this is because the order of the external css is above internal css. the oppostite would be true if it was in a different order -->
+        <h6> I am Afrah </h6>
+        <!-- The Id would take the lead because it is the most specific from the element, class and id selectors -->
+        <h5 class = "heyh5Class" Id = "heyh5Id">This is an h5 line!</h5>
+        <!-- ID Selector >> Class Selector >> Element Selector -->
+        <h5 class = "heyh5Class">This is an h5 line!</h5>
+        <br />
+        
+        <h1>Box Models</h1>
+        <p> This border is working </p>
+        <span> This border is only around the text </span>
+        <span> This border is only around the text 2</span>
+        <br />
+    </body>
+</html>
