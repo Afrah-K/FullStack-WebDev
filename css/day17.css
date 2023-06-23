@@ -10,10 +10,13 @@ span:last-child{
 }
 
 /* nth Child */
-span:nth-child(2){
+span:nth-child(3){
     color:aquamarine;
 }
-
+.child:nth-child(even){
+    /* odd is for all the odd children */
+    color:blueviolet;
+}
 /* Psuedo Elements */
 h4::before{
     content: "hi ";
@@ -23,3 +26,48 @@ h4::before{
 h4::after{
     content: " it's me"
 }
+
+.colors{
+    margin: 100px;
+    width: 120px;
+    height:120px;
+    background-color: black; 
+    border-radius: 20%;
+    position:relative;  
+}
+/* important to add the content = " " selector  */
+.colors::before{
+    width: 80px;
+    height: 80px;
+    content: " ";
+    background-color: yellow;
+    border-radius: 50%;
+    position:absolute;
+    bottom:0px;
+    right:20%;
+    top:20px;
+    left:20px;
+}
+
+.colors::after{
+    width: 50px;
+    height: 50px;
+    content: " ";
+    background-color: violet;
+    position:absolute;
+    bottom:0px;
+    right:0;
+    top:35px;
+    left:35px;
+}
+
+
+/* Units:
+    >> px: pixel
+    >> %
+    >> rem
+    >> em
+    >> vh: view height
+    >> vw: view width
+ */
+ /* calc() used to calculate the difference between two different units eg. 3km - 60cm */
