@@ -1,0 +1,25 @@
+/* Psuedo Classes */
+/* First Child */
+span:first-child{
+        color:blue;
+}
+
+/* Last Child */
+span:last-child{
+    color:pink;
+}
+
+/* nth Child */
+span:nth-child(2){
+    color:aquamarine;
+}
+
+/* Psuedo Elements */
+h4::before{
+    content: "hi ";
+    background-color: pink;
+}
+
+h4::after{
+    content: " it's me"
+}
