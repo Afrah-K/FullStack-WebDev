@@ -1,0 +1,22 @@
+/* Block */
+.displaycss1{
+    /* width:60px; */
+    height: 55px;
+    color: blue;
+    background-color: black;
+    display:block;
+}
+
+.displaycss2{
+    color: blue;
+    background-color: yellow;
+    display:inline;
+}
+
+.displaycss3{
+    height: 55px;
+    color: blue;
+    background-color: aqua;
+    display:inline-block;
+}
+
