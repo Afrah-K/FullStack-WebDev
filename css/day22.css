@@ -1,0 +1,22 @@
+.parentClass{
+    background-color:black;
+    color:blue;
+    display:flex;
+    /* flex-direction: row, column , row-reverse, column-reverse */
+    flex-direction: row;
+    gap: 15px                                                                                                             
+    
+    /* x-axis */
+    /* justify-content:center/ flex-end/ flex-start/ space-around/ space-between/ space-evenly*/
+    /* justify-content:space-evenly; */
+
+    /* y-axis */
+    /* align-items: center/ flex-end/ flex-start/ */
+    /* align-items: center; */ }
+
+.childClass{
+    height: 120px;
+    width: 120px;
+    /* flex:1; */
+    background-color: yellow;
+    border: 1px solid red }
