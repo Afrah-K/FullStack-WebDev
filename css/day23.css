@@ -1,0 +1,21 @@
+button{
+    background-color: black;
+    color:white;
+    margin: 12px;
+    padding: 12px;
+    font-size: 22px;
+    font-family:'Courier New', Courier, monospace;
+    /* Transitions */
+    /* transition-delay: 20ms;
+    transition-duration: 100ms;
+    transition-property: all; */
+    /* linear or cubic-bezier(0.075, 0.82, 0.165, 1) or ease in and ease out */
+    /* transition-timing-function: ease-in; */
+    transition: background-color ease-out 20ms 100ms;
+}   
+
+button:hover{
+    background-color: yellow;
+    color: blue;
+    cursor: pointer;
+}

@@ -1,0 +1,43 @@
+.box{
+    background-color:black;
+    /* vh = viewheight */
+    height: 100vh;
+}
+
+.circle{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: blueviolet; 
+}
+
+.circle:hover{
+    /* custom animation "startMoving */
+    animation: startMoving 4s ease-in-out forwards;
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+}
+
+/* .box:hover{
+    cursor:pointer;
+} */
+
+/* 25/100*5 */
+@keyframes startMoving{
+    25%{
+        transform: translate(500px,0);
+    }
+    50%{
+        transform: translate(500px,300px);
+        background-color: yellow;
+        border-radius:10%;
+    }
+    75%{
+        transform: translate(0,300px);
+        background-color: orange;
+        border-radius:5%;
+
+    }
+    100%{
+        transform: translate(0,0);
+    }
+}
